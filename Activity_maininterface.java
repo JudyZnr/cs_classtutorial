@@ -12,7 +12,6 @@ public class Activity_maininterface extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maininterface);
-       System.out.println("hello");
 
     }
 }
