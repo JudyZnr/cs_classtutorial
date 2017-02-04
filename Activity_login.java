@@ -26,7 +26,7 @@ public class Activity_login extends AppCompatActivity {
     }
 
     public void launch_maininterface(){
-        Intent intent = new Intent(this,Activity_maininterface.class);
+        Intent intent = new Intent(Activity_login.this,Activity_maininterface.class);
         startActivity(intent);
     }
 }
