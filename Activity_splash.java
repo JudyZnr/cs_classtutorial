@@ -13,14 +13,14 @@ public class Activity_splash extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+      //  setContentView(R.layout.activity_splash);
         Thread myThread = new Thread(){
             @Override
             public void run() {
                 try {
                     Thread.sleep(3000);
-                    Intent intent = new Intent(getApplicationContext(), Activity_login.class);
-                    startActivity(intent);
+                    //Intent intent = new Intent(getApplicationContext(), Activity_login.class);
+                    //startActivity(intent);
                     finish();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
